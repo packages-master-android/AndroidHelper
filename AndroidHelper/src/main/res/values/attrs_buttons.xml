@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ButtonOutlinePrimary">
+        <attr name="customButtonOutlinePrimaryRippleColor" format="color"/>
+        <attr name="customButtonOutlinePrimaryButtonStrokeColor" format="color"/>
+        <attr name="isButtonOutlinePrimaryTouchAnimationEnabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonOutlineSelection">
+        <attr name="customButtonOutlineSelectionRippleColor" format="color"/>
+        <attr name="customButtonOutlineSelectionButtonStrokeColor" format="color"/>
+        <attr name="isButtonOutlineSelectionTouchAnimationEnabled" format="boolean"/>
+    </declare-styleable>
+
+</resources>

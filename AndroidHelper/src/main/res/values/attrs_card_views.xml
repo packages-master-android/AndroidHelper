@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardViewFilled">
+        <attr name="customCardViewFilledBackgroundColor" format="color"/>
+        <attr name="customCardViewFilledRippleColor" format="color"/>
+    </declare-styleable>
+
+</resources>

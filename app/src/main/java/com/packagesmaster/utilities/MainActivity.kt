@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        AndroidHelper.with(this).getSharedUtils().getSharedPreferencesEditor().putInt("appTheme", 3).apply()
+
         binding.btnShowProgressDialog.setOnClickListener {
             AndroidHelper
                 .with(this)

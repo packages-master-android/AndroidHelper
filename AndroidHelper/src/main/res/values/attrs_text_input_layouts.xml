@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextInputOutline">
+        <attr name="customTextInputOutlineHintTextColor" format="color"/>
+        <attr name="customTextInputOutlineErrorTextColor" format="color"/>
+        <attr name="customTextInputOutlineBoxStrokeErrorColor" format="color"/>
+        <attr name="customTextInputOutlineErrorIconTintColor" format="color"/>
+        <attr name="customTextInputOutlineBoxStrokeColor" format="color"/>
+        <attr name="customTextInputOutlineCounterTextColor" format="color"/>
+        <attr name="customTextInputOutlineStartIconTintColor" format="color"/>
+        <attr name="customTextInputOutlineEndIconTintColor" format="color"/>
+        <attr name="customTextInputOutlineHelperTextTextColor" format="color"/>
+    </declare-styleable>
+
+</resources>
