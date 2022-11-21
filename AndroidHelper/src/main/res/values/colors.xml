@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="failed">#ff4444</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#D8D8D8</color>
+
+    <!-- For Light Theme -->
+    <color name="color_primary_light">#FFB700</color>
+    <color name="light_text_color_light">#C3C3C3</color>
+    <color name="input_edit_text_unfocused_color_light">#33000000</color>
+    <color name="input_edit_text_focused_color_light">#FFB700</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="selected_text_color_light">#3C3C3C</color>
+    <color name="un_selected_text_color_light">#E7E7E7</color>
+    <color name="bold_text_color_light">#000000</color>
+    <color name="image_picker_card_background_color_light">#3C3C3C</color>
+    <color name="image_picker_background_color_light">#edebe0</color>
+    <color name="image_picker_text_color_light">#FFB700</color>
+    <!-- For Dark Theme -->
+    <color name="color_primary_dark">#FFB700</color>
+    <color name="light_text_color_dark">#C3C3C3</color>
+    <color name="input_edit_text_unfocused_color_dark">#959595</color>
+    <color name="input_edit_text_focused_color_dark">#FFB700</color>
+    <color name="background_dark">#272727</color>
+    <color name="selected_text_color_dark">#FFFFFF</color>
+    <color name="un_selected_text_color_dark">#66FFFFFF</color>
+    <color name="bold_text_color_dark">#FFFFFF</color>
+    <color name="image_picker_card_background_color_dark">#3C3C3C</color>
+    <color name="image_picker_background_color_dark">#382b1c</color>
+    <color name="image_picker_text_color_dark">#FFB700</color>
+
+    <!--~~~~~~~~~~~~~~ For Custom Views ~~~~~~~~~~~~~~-->
+    <!--#### For Light Theme ####-->
+    <!-- TextViewTitle -->
+    <color name="title_color_light">#707070</color>
+    <!-- TextViewBody -->
+    <color name="body_color_light">#99000000</color>
+    <!-- ButtonOutlinePrimary -->
+    <color name="button_outline_primary_text_color_light">#FFB700</color>
+    <color name="button_outline_primary_ripple_color_light">#FFB700</color>
+    <color name="button_outline_primary_stroke_color_light">#FFB700</color>
+    <color name="button_outline_selection_stroke_color_light">#1F000000</color>
+    <!-- CardViewFilled -->
+    <color name="card_view_filled_background_color_light">#FFB700</color>
+    <color name="card_view_filled_ripple_color_light">#FFFFFF</color>
+    <!-- TextInputOutline -->
+    <color name="text_input_outline_text_color_hint_light">@color/color_primary_light</color>
+    <color name="text_input_outline_default_text_color_hint_light">@color/light_text_color_light</color>
+    <color name="text_input_outline_box_stroke_color_light">@color/text_input_layout_stroke_color_light</color>
+    <color name="text_input_outline_counter_text_color_light">@color/light_text_color_light</color>
+    <color name="text_input_outline_start_icon_tint_color_light">#3C3C3C</color>
+    <color name="text_input_outline_end_icon_tint_color_light">#3C3C3C</color>
+    <color name="text_input_outline_helper_text_color_light">@color/light_text_color_light</color>
+
+    <!--#### For Dark Theme ####-->
+    <!-- TextViewTitle -->
+    <color name="title_color_dark">#FFFFFF</color>
+    <!-- TextViewBody -->
+    <color name="body_color_dark">#B0FFFFFF</color>
+    <!-- ButtonOutlinePrimary -->
+    <color name="button_outline_primary_text_color_dark">#FFB700</color>
+    <color name="button_outline_primary_ripple_color_dark">#FFB700</color>
+    <color name="button_outline_primary_stroke_color_dark">#FFB700</color>
+    <color name="button_outline_selection_stroke_color_dark">#656565</color>
+    <!-- CardViewFilled -->
+    <color name="card_view_filled_background_color_dark">#FFB700</color>
+    <color name="card_view_filled_ripple_color_dark">#FFFFFF</color>
+    <!-- TextInputOutline -->
+    <color name="text_input_outline_text_color_hint_dark">@color/color_primary_dark</color>
+    <color name="text_input_outline_default_text_color_hint_dark">@color/light_text_color_dark</color>
+    <color name="text_input_outline_box_stroke_color_dark">@color/text_input_layout_stroke_color_dark</color>
+    <color name="text_input_outline_counter_text_color_dark">@color/light_text_color_dark</color>
+    <color name="text_input_outline_start_icon_tint_color_dark">#B0FFFFFF</color>
+    <color name="text_input_outline_end_icon_tint_color_dark">#B0FFFFFF</color>
+    <color name="text_input_outline_helper_text_color_dark">@color/light_text_color_dark</color>
+</resources>

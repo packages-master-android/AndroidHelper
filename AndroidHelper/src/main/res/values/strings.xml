@@ -1,0 +1,17 @@
+<resources>
+    <string name="choose_an_app_to_share_the_image">Choose an app to share the image</string>
+    <string name="error_occurred">Sorry, an error occurred</string>
+    <string name="wait">Please wait</string>
+    <string name="in_the_future">In the future</string>
+    <string name="just_now">Just now</string>
+    <string name="a_minute_ago">A minute ago</string>
+    <string name="minutes_ago">%1$s minutes ago</string>
+    <string name="an_hour_ago">An hour ago</string>
+    <string name="hours_ago">%1$s hours ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="days_ago">%1$s days ago</string>
+    <string name="retry">Retry</string>
+    <string name="choose_image_source">Choose an image source</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+</resources>

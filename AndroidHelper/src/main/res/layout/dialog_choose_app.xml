@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clDialogChooseImagePickerApp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_400sdp"
+    android:padding="@dimen/_10sdp">
+
+    <!-- lytCameraPick, lytGalleryPick -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvImagePickerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+        android:fontFamily="@font/app_font_bold"
+        android:gravity="center"
+        android:text="@string/choose_image_source"
+        app:fontFamily="@font/app_font_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvImagePickerTitle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvImagePickerTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvImagePickerTitle"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lytCameraPick"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/camera"
+            app:cornerRadius="@dimen/_8sdp"
+            app:strokeWidth="0dp"
+            tools:rippleColor="@color/color_primary_light" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lytGalleryPick"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/gallery"
+            app:cornerRadius="@dimen/_8sdp"
+            app:rippleColor="@color/white"
+            app:strokeWidth="0dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

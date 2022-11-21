@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_an_app_to_share_the_image">إختر تطبيقا لمشاركة الصورة من خلاله</string>
+    <string name="error_occurred">عذرا، لقد حدث خطأ</string>
+    <string name="wait">الرجاء الإنتظار</string>
+    <string name="in_the_future">في المستقبل</string>
+    <string name="just_now">الآن</string>
+    <string name="a_minute_ago">منذ دقيقة مضت</string>
+    <string name="minutes_ago">%1$s منذ دقيقة مضت</string>
+    <string name="an_hour_ago">منذ ساعة مضت</string>
+    <string name="hours_ago">%1$s منذ ساعة مضت</string>
+    <string name="yesterday">بالأمس</string>
+    <string name="days_ago">%1$s منذ يوم مضى</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="choose_image_source">قم بإختيار مصدر للصورة</string>
+    <string name="camera">الكاميرا</string>
+    <string name="gallery">معرض الصور</string>
+</resources>
